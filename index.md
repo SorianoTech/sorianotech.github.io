@@ -1,37 +1,41 @@
-## Welcome to GitHub Pages
+# Apuntes del curso IFCD0210
 
-You can use the [editor on GitHub](https://github.com/SorianoTech/sorianotech.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## [Módulo 1. Contexto e introducción al curso](Modulo1.md)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- 1.1 ¿Qué es la programación y en que sitios está presente?
+- 1.2 Distintas modalidades y carreras profesionales
+- 1.3 Concepto general de Programación Estructurada
+- 1.4 Concepto general de Programación Orientada a Objetos
+- 1.5 Programación Estructurada vs Programación Orientada a Objetos
+- 1.6 El proyecto CODE.ORG
 
-### Markdown
+## [2. Módulo: POO, Conceptos básicos I](Modulo2.md)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- 2.1 Variables primitivas
+- 2.2 Métodos
+- 2.3 Clases
+- 2.4 Arrays y otros componentes
+- 2.5 Funciones de cadena
+- 2.6 Estructuras de control de flujo
+- 2.7 Condicional if
+- 2.8 Condicional switch
+- 2.9 Bucle while
+- 2.10 Bucle for clásico
+- 2.11 Bucle foreach
 
-```markdown
-Syntax highlighted code block
+## [3. Módulo: POO, Conceptos básicos II](Modulo3.md)
 
-# Header 1
-## Header 2
-### Header 3
+- 3.1 Instancias y métodos constructores
+- 3.2 Interfaces
+- 3.3 Polimorfismo
+- 3.4 Herencia
+- 3.5 Encapsulación. Niveles de acceso
+- 3.6 Modificador de acceso static
+- 3.7 Buenas prácticas vs malos olores
 
-- Bulleted
-- List
+## [4. Módulo: Las actuales Tecnologías y sus Lenguajes de Programación](Modulo4.md)
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SorianoTech/sorianotech.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- 4.1 Plataforma JAVA-J2EE
+- 4.2 Plataforma .NET
+- 4.3 Tecnologías Móviles
+- 4.4 Plataforma UNITY
