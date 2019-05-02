@@ -1,16 +1,21 @@
 
-# 1. Módulo 1. Contexto e introducción al curso
-
 - [1. Módulo 1. Contexto e introducción al curso](#1-m%C3%B3dulo-1-contexto-e-introducci%C3%B3n-al-curso)
   - [1.1. ¿Qué es la programación y en que sitios está presente?](#11-%C2%BFqu%C3%A9-es-la-programaci%C3%B3n-y-en-que-sitios-est%C3%A1-presente)
   - [1.2. Distintas modalidades y carreras profesionales](#12-distintas-modalidades-y-carreras-profesionales)
     - [1.2.1. Carreras profesionales](#121-carreras-profesionales)
   - [1.3. Concepto general de Programación Estructurada](#13-concepto-general-de-programaci%C3%B3n-estructurada)
-  - [1.4. Concepto general de Programación Orientada a Objetos](#14-concepto-general-de-programaci%C3%B3n-orientada-a-objetos)
+    - [Diagramas de flujo](#diagramas-de-flujo)
+  - [1.4. Concepto general de Programación Orientada a Objetos (POO)](#14-concepto-general-de-programaci%C3%B3n-orientada-a-objetos-poo)
     - [1.4.1. Objeto](#141-objeto)
+    - [¿Qué es Java?](#%C2%BFqu%C3%A9-es-java)
+    - [Los lenguajes interpretados y compilados](#los-lenguajes-interpretados-y-compilados)
+    - [Servidores Java](#servidores-java)
+    - [Frameworks Java](#frameworks-java)
   - [1.5. Programación Estructurada vs Programación Orientada a Objetos](#15-programaci%C3%B3n-estructurada-vs-programaci%C3%B3n-orientada-a-objetos)
   - [1.6. El proyecto CODE.ORG](#16-el-proyecto-codeorg)
   - [1.7. Recursos de estudio gratuitos](#17-recursos-de-estudio-gratuitos)
+
+# 1. Módulo 1. Contexto e introducción al curso
 
 ## 1.1. ¿Qué es la programación y en que sitios está presente?
 
@@ -21,7 +26,7 @@ La programación viene del verbo programar, que en el ámbito tecnológico signi
 Hoy en día la programación esta en practicamente todos los
 ámbitos de nuestra vida, desde la medicina, hasta la agricultura o desde la aeronaútica hasta los equipos que funcionan en los submarinos, desde las web donde compramos como amazon, hasta la información que consultamos y tramitamos en hacienda. Cualquier cosa que requiera de un procesamiento de datos, intercambio de información entre personas ubicadas en diferentes lugares o equipos que requieran de cálculos matemáticos tendrán presente la programación.
 
-Es por este motivo que aunque hoy en día existen multitud de campos en donde se esta aplicando la programación, hoy en día sigue en crecimiento debido al aumento de la tendencia de utilizar dispositivos electrónicos e internet en nuestra vida cotidiana.
+Es por este motivo que aunque hoy en día existen multitud de campos en donde se esta aplicando la programación, continua en crecimiento debido al aumento de la tendencia de utilizar dispositivos electrónicos e internet en nuestra vida cotidiana.
 
 ![Uso de internet](img\Grafica-2-usuarios-internet-incremento-con-los-años.jpg)
 *Uso de internet en los últimos años
@@ -102,6 +107,10 @@ control:
 siguiente sentencia a ejecutar. (If, else if, switch)
 - `Iterativa o bucle`: Repetimos un bloque de sentencias hasta que sea verdadera una
 determinada condición. (do, while, for, do while)
+
+`Diagramas de flujo`: Los diagramas de flujo nos permiten representar una sentencia mediante simbolos.
+
+`Pseudocódigo`: es la representación de todas las intrucciones adaptadas a nuestro lenguaje.
 
 En los avances de la programación estructurada aparecen la creación de módulos que consisten en agrupación de códigos que componen librerías. Estas librerías nos permiten ahorrarnos escribir de nuevo un código que puede ser reutilizado.
 
@@ -189,6 +198,47 @@ visual de un objeto.
 
 [2]: bibliografia\ProgramacionOrientadaAObjetos.pdf
 
+### ¿Qué es Java?
+
+Java es un lenguaje multiplataform, desarrollado en 1995 por Sun Microsistems en concreto por James Gosling.
+
+### Los lenguajes interpretados y compilados
+
+Los lenguajes compilados requieren de un proceso antes de ser ejecutados. Eso quiere decir que antes de que puedan funcionar si hay alguna error en el codigo no se llegara a compilar. Sin embargo uno *interpretado* va ejecutando linea a linea.
+
+>Los lenguajes compilados transforman el código fuente en codigo máquina.
+
+**¿Qué lenguajes son compilados?**
+C++, Go, Cobol
+
+`Java` es intermedio, por que es compilado a bytecode no a código máquina.
+
+Los programas en bytecode son interpretados por un interprete de bycode
+
+Para correr las aplicaciones de Java se utiliza `Tomcat`.
+
+Java Servlets y JSP (Java Server Pages)
+
+Java Servlet entrega la página al cliente, la equivalencia en PHP sería APACHE, NGINX o lighttp.
+
+### Servidores Java
+
+- [Tomcat](http://tomcat.apache.org)
+- [GlassFish](https://www.oracle.com/technetwork/es/middleware/glassfish/overview/index.html)
+- OAS
+- [WildFly (Antiguo Jboss)](https://wildfly.org/)
+- I Planet (OiWS)
+- Bea Weblogic
+
+### Frameworks Java
+
+Los Frameworks son herramientas que nos permiten reutilizar código para desarrollar de una forma mas rápida
+
+**¿Qué frameworks se utilizan en Java?**
+
+- [Hibernate](https://hibernate.org/)
+- [Spring](https://spring.io/)
+
 ## 1.5. Programación Estructurada vs Programación Orientada a Objetos
 
 La principal diferencia entre la estructurada y la orientada a objetos consiste en la forma en la que abstraemos los datos. La estructurada realiza una serie de ordenes de forma ordenada y no es posible acceder a datos predefinidos.
@@ -197,7 +247,19 @@ La programación orientada a objetos es mas avanzada ya que nos permite abstraer
 
 ## 1.6. El proyecto CODE.ORG
 
+Es una organización sin ánimo de lucro que fomenta el aprendizaje de las ciencias de la computación haciendo la mas accesible y aumentar la participación de mujeres y minorías. Esta apoyada por Amazon, Facebook, Google, la Fundación de Infosys, Microsoft y muchos más.
 
+El ofrece planes de estudios para primaria y secundaria.
+
+Dispone de un catalogo de cursos gratuitos para diferentes edades.
+
+- [Edad 4-11](https://code.org/educate/curriculum/elementary-school)
+- [Edades 10-16](https://code.org/educate/curriculum/middle-school)
+- [Edades 14-18+](https://code.org/educate/curriculum/high-school)
+
+[Más información ](https://studio.code.org/courses)
+
+También ofrece una sería de herramientas para crear aplicaciones, animaciones y juegos en Javascript( estos recursos están sólo disponible en ingles)
 
 ## 1.7. Recursos de estudio gratuitos
 

@@ -35,7 +35,7 @@ En Java existen ocho tipos de datos primitivos que se pueden clasificar en:
 
 Métodos en Java. Un método en Java es un conjunto de instrucciones definidas dentro de una clase, que realizan una determinada tarea y a las que podemos invocar mediante un nombre. - System.out.println(); ... Este método es el punto de entrada al programa y también el punto de salida.
 
-### Atributos o propiedades
+Los métodos contienen atributos o propiedades
 
 ## 2.3 Clases
 

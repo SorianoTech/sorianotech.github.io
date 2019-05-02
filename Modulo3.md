@@ -14,9 +14,9 @@
 
 ## 3.1 Instancias y métodos constructores
 
-Un **metodo** es un conjunto de instrucciones que solo se van a ejecutar cuando yo las llame.
+Un **método** es un conjunto de instrucciones que solo se van a ejecutar cuando yo las llame.
 
-Si un metodo no devuelve nada se pone `void`. Si no tiene que llevar un return. En vez de void se tiene que poner el tipo de dato que va a devolver, como por ejemplo `int`, `String`)
+Si un método no devuelve nada se pone `void`. Si no tiene que llevar un return. En vez de void se tiene que poner el tipo de dato que va a devolver, como por ejemplo `int`, `String`)
 
 ```java
 public static void crearCoche(){
