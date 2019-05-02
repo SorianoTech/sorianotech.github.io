@@ -2,11 +2,10 @@
 - [1. Módulo 1. Contexto e introducción al curso](#1-m%C3%B3dulo-1-contexto-e-introducci%C3%B3n-al-curso)
   - [1.1. ¿Qué es la programación y en que sitios está presente?](#11-%C2%BFqu%C3%A9-es-la-programaci%C3%B3n-y-en-que-sitios-est%C3%A1-presente)
   - [1.2. Distintas modalidades y carreras profesionales](#12-distintas-modalidades-y-carreras-profesionales)
-    - [1.2.1. Carreras profesionales](#121-carreras-profesionales)
+    - [Carreras profesionales](#carreras-profesionales)
   - [1.3. Concepto general de Programación Estructurada](#13-concepto-general-de-programaci%C3%B3n-estructurada)
-    - [Diagramas de flujo](#diagramas-de-flujo)
   - [1.4. Concepto general de Programación Orientada a Objetos (POO)](#14-concepto-general-de-programaci%C3%B3n-orientada-a-objetos-poo)
-    - [1.4.1. Objeto](#141-objeto)
+    - [Objeto](#objeto)
     - [¿Qué es Java?](#%C2%BFqu%C3%A9-es-java)
     - [Los lenguajes interpretados y compilados](#los-lenguajes-interpretados-y-compilados)
     - [Servidores Java](#servidores-java)
@@ -81,7 +80,7 @@ Un **lenguaje de programación** es un idioma artificial diseñado para expresar
 
 ![Lenguajes de Programación](img\Grafica-2-usuarios-internet-incremento-con-los-años.jpg)
 
-### 1.2.1. Carreras profesionales
+### Carreras profesionales
 
 En el ámbito de la programación podemos diferenciar las siguientes especialidades:
 
@@ -184,7 +183,7 @@ Los niveles de abstracción del POO son:
 
 Los veremos explicados más adelante.
 
-### 1.4.1. Objeto
+### Objeto
 
 Un *objeto* no es más que un conjunto de variables (o datos) y métodos (o funciones)
 relacionados entre sí. Los objetos en programación se usan para modelar objetos o
